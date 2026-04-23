@@ -1,3 +1,9 @@
+## Overview
+
+This project analyzes ClinVar variant data to identify genes enriched for pathogenic variants.
+The analysis compares both absolute variant counts and pathogenic proportions across genes.
+
+
 # ClinVar Pathogenicity Analysis
 
 This project explores differences between pathogenic and benign variants in the ClinVar database and investigates whether simple gene-level features can help distinguish between them.
@@ -27,14 +33,7 @@ This highlights genes where a large proportion of reported variants are classifi
 ## Visualization
 
 
-### Pathogenic variant ratio per gene
 
-![Pathogenic ratio](figures/clinvar_pathogenic_ratio.png)
-
-This figure shows the fraction of pathogenic variants per gene.
-Higher values indicate genes where a larger proportion of reported variants are pathogenic.
-This figure shows the top genes with the highest number of pathogenic variants reported in ClinVar.  
-Genes such as BRCA1, BRCA2, and NF1 are strongly enriched, reflecting their well-established roles in hereditary disease.
 
 ![Top pathogenic genes](figures/clinvar_top_genes.png)
 This figure shows the proportion of pathogenic variants relative to all classified variants per gene.  
@@ -43,6 +42,16 @@ Higher values indicate genes where a larger fraction of reported variants are pa
 Genes such as BRCA1, BRCA2, and NF1 show high pathogenic fractions, reflecting strong disease association, while others (e.g. APC) show a more balanced distribution.
 
 This highlights the importance of distinguishing between absolute variant counts and relative pathogenic enrichment when interpreting gene-level data.
+
+
+### Pathogenic variant ratio per gene
+
+![Pathogenic ratio](figures/clinvar_pathogenic_ratio.png)
+
+This figure shows the fraction of pathogenic variants per gene.
+Higher values indicate genes where a larger proportion of reported variants are pathogenic.
+This figure shows the top genes with the highest number of pathogenic variants reported in ClinVar.  
+Genes such as BRCA1, BRCA2, and NF1 are strongly enriched, reflecting their well-established roles in hereditary disease.
 
 ## Interpretation
 
