@@ -26,8 +26,13 @@ This highlights genes where a large proportion of reported variants are classifi
 
 ## Visualization
 
-![Top pathogenic genes](notebook/figures/clinvar_top_genes.png)
 
+### Pathogenic variant ratio per gene
+
+![Pathogenic ratio](figures/clinvar_pathogenic_ratio.png)
+
+This figure shows the fraction of pathogenic variants per gene.
+Higher values indicate genes where a larger proportion of reported variants are pathogenic.
 This figure shows the top genes with the highest number of pathogenic variants reported in ClinVar.  
 Genes such as BRCA1, BRCA2, and NF1 are strongly enriched, reflecting their well-established roles in hereditary disease.
 
