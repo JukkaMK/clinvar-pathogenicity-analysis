@@ -24,11 +24,11 @@ The analysis follows a simple and transparent workflow:
 
 ## Results
 
-Certain genes (e.g. BRCA1, BRCA2, NF1) show a strong enrichment of pathogenic variants.
+Certain genes (e.g. BRCA2, TTN, NF1, and BRCA1) contain large numbers of pathogenic or likely pathogenic variants in ClinVar.
 
-To better quantify this, a normalized ratio was calculated:
+To distinguish absolute variant counts from relative pathogenic enrichment, the proportion of pathogenic or likely pathogenic variants was also calculated for each gene.
 
-This highlights genes where a large proportion of reported variants are classified as pathogenic.
+This allows genes with many reported variants to be compared with genes where pathogenic variants make up a particularly large proportion of classified variants.
 
 ## Visualization
 
