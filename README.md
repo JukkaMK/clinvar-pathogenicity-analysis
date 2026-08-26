@@ -36,28 +36,28 @@ This highlights genes where a large proportion of reported variants are classifi
 
 
 ![Top pathogenic genes](figures/clinvar_top_genes.png)
-This figure shows the proportion of pathogenic variants relative to all classified variants per gene.  
-Higher values indicate genes where a larger fraction of reported variants are pathogenic.
+This figure shows the genes with the highest numbers of unique pathogenic or likely pathogenic variant–gene pairs in ClinVar.
 
-Genes such as BRCA1, BRCA2, and NF1 show high pathogenic fractions, reflecting strong disease association, while others (e.g. APC) show a more balanced distribution.
+BRCA2, TTN, NF1, and BRCA1 are among the genes with the largest numbers of reported pathogenic or likely pathogenic variants.
 
-This highlights the importance of distinguishing between absolute variant counts and relative pathogenic enrichment when interpreting gene-level data.
+Absolute variant counts should be distinguished from relative pathogenic enrichment, since genes with many ClinVar submissions may have high counts of both pathogenic and benign variants.
 
 
 ### Pathogenic variant ratio per gene
 
 ![Pathogenic ratio](figures/clinvar_pathogenic_ratio.png)
 
-This figure shows the fraction of pathogenic variants per gene.
-Higher values indicate genes where a larger proportion of reported variants are pathogenic.
-This figure shows the top genes with the highest number of pathogenic variants reported in ClinVar.  
-Genes such as BRCA1, BRCA2, and NF1 are strongly enriched, reflecting their well-established roles in hereditary disease.
 
+This figure shows the proportion of pathogenic or likely pathogenic variants among the pathogenic/likely pathogenic and benign/likely benign variants for each gene.
+
+The pathogenic proportion varies considerably between genes. For example, FBN1 and NF1 show relatively high pathogenic proportions, whereas TTN has a substantially lower proportion despite having many reported pathogenic variants.
+
+This demonstrates why absolute variant counts and relative pathogenic proportions provide complementary information.
 ## Interpretation
 
-Genes such as BRCA1 and BRCA2 are well-known cancer susceptibility genes and show a high proportion of pathogenic variants in ClinVar.
+Genes such as BRCA1 and BRCA2 are well-known cancer susceptibility genes and are among the genes with large numbers of pathogenic or likely pathogenic variants in ClinVar.
 
-Other genes (e.g. NF1, MSH2, MLH1) are also strongly associated with inherited disease syndromes, which is reflected in their variant profiles.
+Other genes in the analysis, including NF1, MSH2, and MSH6, are associated with inherited disease syndromes and show distinct pathogenic-to-benign variant profiles.
 
 However, these results should be interpreted with caution:
 
