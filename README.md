@@ -35,7 +35,7 @@ This allows genes with many reported variants to be compared with genes where pa
 
 
 
-![Top pathogenic genes](figures/clinvar_top_genes.png)
+![Top pathogenic genes](figures/clinvar_top_genes(1).png)
 This figure shows the genes with the highest numbers of unique pathogenic or likely pathogenic variant–gene pairs in ClinVar.
 
 BRCA2, TTN, NF1, and BRCA1 are among the genes with the largest numbers of reported pathogenic or likely pathogenic variants.
